@@ -1,0 +1,194 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #951515;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4CAF50;
+    color: rgb(84, 107, 185);
+    padding: 20px 0;
+  }
+  
+  header .logo h1 {
+    display: inline-block;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: rgb(170, 122, 71);
+    font-weight: bold;
+  }
+  
+  /* Profile Section */
+  .profile {
+    background-color: rgb(68, 47, 164);
+    padding: 40px 0;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .profile-info h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .profile-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info .location {
+    color: #555;
+  }
+  
+  .email-button {
+    display: inline-block;
+    background-color: #ba983a;
+    color: rgb(95, 8, 8);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .email-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Profile Details */
+  .profile-details {
+    margin-top: 30px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .job, .education {
+    background-color: #208253;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .job ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background-color: rgb(171, 73, 43);
+    padding: 40px 0;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form form label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form form input, .contact-form form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .contact-form form button:hover {
+    background-color: #452647;
+  }
+  
+  #form-status {
+    color: rgb(150, 32, 79);
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: rgb(53, 39, 180);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
